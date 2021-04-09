@@ -19,7 +19,7 @@ The things I was interested in were this:
 2. How to switch between local, test, and production environments / networks
 3. How to connect to and interact with the contracts using various environments from a front end like React, Vue, Svelte, or Angular
 
-After spending some (ok, a lot of) time figuring all of this out and getting going with the stack that I felt really happy with, I thought it would be nice to write up how to build and test a full stack Ethereum app using this stack not only for other people out there who may be interested in this stack, but also for myself for future reference. This is that reference.
+After spending some time figuring all of this out and getting going with the stack that I felt really happy with, I thought it would be nice to write up how to build and test a full stack Ethereum app using this stack not only for other people out there who may be interested in this stack, but also for myself for future reference. This is that reference.
 
 ## The pieces
 
@@ -33,7 +33,7 @@ You will also need a way to compile your Solidity code into code that can be run
 
 Hardhat is a local Ethereum framework and network designed for full stack development and is the framework that I will be using for this tutorial.
 
-Another popular option in the ecosystem is [Ganache](https://www.trufflesuite.com/ganache)
+Other similar tools in the ecosystem are [Ganache](https://www.trufflesuite.com/ganache) and [Truffle](https://www.trufflesuite.com/).
 
 ### 2. Ethereum Web Client Library
 
