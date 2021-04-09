@@ -4,10 +4,10 @@
 
 I recently joined [Edge and Node](https://twitter.com/edgeandnode) as a Developer Relations Engineer and have been diving deeper into smart contract development with Ethereum. I have settled upon what I think is the best stack for building full stack dApps with Solidity:
 
-▶︎ Client Framework - __React__
-▶︎ Ethereum development environment - [__Hardhat__](https://hardhat.org/)
-▶︎ Ethereum Web Client Library - [__Ethers.js__](https://docs.ethers.io/v5/)
-▶︎ API layer - [The Graph Protocol](https://thegraph.com/)
+▶︎ Client Framework - __React__   
+▶︎ Ethereum development environment - [__Hardhat__](https://hardhat.org/)   
+▶︎ Ethereum Web Client Library - [__Ethers.js__](https://docs.ethers.io/v5/)   
+▶︎ API layer - [The Graph Protocol](https://thegraph.com/)   
 
 The problem that I ran into though while learning this was that while there was fairly good documentation out there for each of these things individually, there was nothing really out there for how to put all of these things together and understand how they worked with each other. There are some good boilerplates out there like [scaffold-eth](https://github.com/austintgriffith/scaffold-eth) (which includes Ethers, Hardhat, and The Graph), but I think is too complex for people just getting started.
 
