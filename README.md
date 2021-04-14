@@ -35,7 +35,9 @@ npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
-5. Run the app
+5. Update __src/App.js__ with the values of your contract addresses (`greeterAddress` and `tokenAddress`)
+
+6. Run the app
 
 ```sh
 npm start
