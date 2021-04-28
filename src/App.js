@@ -60,8 +60,8 @@ function App() {
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const signer = provider.getSigner();
       const contract = new ethers.Contract(tokenAddress, Token.abi, signer);
-      const transation = await contract.transfer(userAccount, amount);
-      await transation.wait();
+      const transaction = await contract.transfer(userAccount, amount);
+      await transaction.wait();
       console.log(`${amount} Coins successfully sent to ${userAccount}`);
     }
   }
