@@ -11,6 +11,16 @@ To deploy this project to Gitpod, click this button:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/dabit3/full-stack-ethereum)
 
+Once the setup is complete, import the rpc endpoing running on Gitpod into your wallet as a custom RPC.
+
+For instance, your RPC enpoint will probably look something like this:
+
+```sh
+https://8545-sapphire-pigeon-uiroo9v8.ws-eu18.gitpod.io/
+```
+
+The ChainID should be 1337, and you may need to delete a localhost configuration if you already have that set up.
+
 ## Run locally
 
 1. Clone the repo
