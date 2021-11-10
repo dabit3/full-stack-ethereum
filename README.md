@@ -5,9 +5,13 @@ This codebase goes along with the tutorial [The Complete Guide to Full Stack Eth
 
 The video course for this codebase is located [here](https://www.youtube.com/watch?v=a0osIaAOFSE)
 
-## Getting started
+### Open in Gitpod
 
-Here's how to deploy this project
+To deploy this project to Gitpod, click this button:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/dabit3/full-stack-ethereum)
+
+## Run locally
 
 1. Clone the repo
 
