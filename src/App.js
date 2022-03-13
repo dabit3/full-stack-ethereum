@@ -25,7 +25,7 @@ function App() {
         const data = await contract.greet()
         console.log('data: ', data)
       } catch (err) {
-        console.log("Error: ", err)
+        console.log('Error: ', err)
       }
     }
   }
@@ -36,7 +36,7 @@ function App() {
       const provider = new ethers.providers.Web3Provider(window.ethereum)
       const contract = new ethers.Contract(tokenAddress, Token.abi, provider)
       const balance = await contract.balanceOf(account)
-      console.log("Balance: ", balance.toString())
+      console.log('Balance: ', balance.toString())
     }
   }
 
