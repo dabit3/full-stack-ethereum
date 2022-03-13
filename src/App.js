@@ -1,5 +1,5 @@
-import './App.css';
-import { useState } from 'react';
+import './App.css'
+import { useState } from 'react'
 import { ethers } from 'ethers'
 import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json'
 import Token from './artifacts/contracts/Token.sol/Token.json'
@@ -13,7 +13,7 @@ function App() {
   const [amount, setAmount] = useState()
 
   async function requestAccount() {
-    await window.ethereum.request({ method: 'eth_requestAccounts' });
+    await window.ethereum.request({ method: 'eth_requestAccounts' })
   }
 
   async function fetchGreeting() {
@@ -27,16 +27,16 @@ function App() {
       } catch (err) {
         console.log("Error: ", err)
       }
-    }    
+    }
   }
 
   async function getBalance() {
     if (typeof window.ethereum !== 'undefined') {
       const [account] = await window.ethereum.request({ method: 'eth_requestAccounts' })
-      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      const provider = new ethers.providers.Web3Provider(window.ethereum)
       const contract = new ethers.Contract(tokenAddress, Token.abi, provider)
-      const balance = await contract.balanceOf(account);
-      console.log("Balance: ", balance.toString());
+      const balance = await contract.balanceOf(account)
+      console.log("Balance: ", balance.toString())
     }
   }
 
@@ -44,7 +44,7 @@ function App() {
     if (!greeting) return
     if (typeof window.ethereum !== 'undefined') {
       await requestAccount()
-      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      const provider = new ethers.providers.Web3Provider(window.ethereum)
       console.log({ provider })
       const signer = provider.getSigner()
       const contract = new ethers.Contract(greeterAddress, Greeter.abi, signer)
@@ -57,12 +57,12 @@ function App() {
   async function sendCoins() {
     if (typeof window.ethereum !== 'undefined') {
       await requestAccount()
-      const provider = new ethers.providers.Web3Provider(window.ethereum);
-      const signer = provider.getSigner();
-      const contract = new ethers.Contract(tokenAddress, Token.abi, signer);
-      const transaction = await contract.transfer(userAccount, amount);
-      await transaction.wait();
-      console.log(`${amount} Coins successfully sent to ${userAccount}`);
+      const provider = new ethers.providers.Web3Provider(window.ethereum)
+      const signer = provider.getSigner()
+      const contract = new ethers.Contract(tokenAddress, Token.abi, signer)
+      const transaction = await contract.transfer(userAccount, amount)
+      await transaction.wait()
+      console.log(`${amount} Coins successfully sent to ${userAccount}`)
     }
   }
 
@@ -80,7 +80,7 @@ function App() {
         <input onChange={e => setAmount(e.target.value)} placeholder="Amount" />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
