@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
     "@metamask/detect-provider": "^1.2.0",
     "@nomiclabs/hardhat-web3": "^2.0.0",
     "@openzeppelin/contracts": "^4.0.0",
@@ -11,6 +15,7 @@
     "@testing-library/user-event": "^12.1.10",
     "@typechain/ethers-v5": "^6.0.5",
     "ethers": "^5.0.32",
+    "framer-motion": "4.1.17",
     "hardhat-typechain": "^0.3.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
