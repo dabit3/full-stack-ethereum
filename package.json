@@ -1,0 +1,53 @@
+{
+  "name": "hardhat-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.0.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@typechain/ethers-v5": "^6.0.5",
+    "ethers": "^5.0.32",
+    "hardhat-typechain": "^0.3.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "ts-generator": "^0.1.1",
+    "typechain": "^4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.0.0",
+    "hardhat": "^2.1.2"
+  }
+}
