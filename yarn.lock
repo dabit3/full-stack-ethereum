@@ -2354,6 +2354,46 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@lavanet/lava-sdk-providers@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@lavanet/lava-sdk-providers/-/lava-sdk-providers-0.8.3.tgz#bf2d3acc6e3025720293366c9159cf2fa8c96d30"
+  integrity sha512-nSOaokcmYYt75B59PBus0rYplVf+qVta8wNwEuzddQwYD5Xm0Dhr9jDHjzrShMEDkePtQf9t/BM5orCi9zywvw==
+  dependencies:
+    "@lavanet/lava-sdk" "0.8.2"
+    ethers "^6.1.0"
+
+"@lavanet/lava-sdk@0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@lavanet/lava-sdk/-/lava-sdk-0.8.2.tgz#aecbf1fdcd10b4c45463a1d786e1604aae27b761"
+  integrity sha512-TJbNXQVmpylZGfGVjVDEb5GS6PxQ2PMa0LekyuX8587lnj3zjUo84/mPa8xaYaBh/FrWioX+letOk1MHwcCGkA==
+  dependencies:
+    "@cosmjs/amino" "^0.29.4"
+    "@cosmjs/crypto" "^0.29.4"
+    "@cosmjs/encoding" "^0.29.4"
+    "@cosmjs/proto-signing" "^0.29.4"
+    "@cosmjs/stargate" "0.28.2"
+    "@grpc/grpc-js" "^1.7.1"
+    "@improbable-eng/grpc-web" "^0.15.0"
+    "@improbable-eng/grpc-web-node-http-transport" "^0.15.0"
+    "@types/google-protobuf" "^3.15.6"
+    "@typescript-eslint/eslint-plugin" "^5.45.0"
+    "@typescript-eslint/parser" "^5.45.0"
+    chalk "4.1.2"
+    commander "^9.4.1"
+    eslint "^8.29.0"
+    eslint-config-prettier "^8.5.0"
+    eslint-plugin-prettier "^4.2.1"
+    google-protobuf "^3.21.2"
+    grpc-web "^1.4.2"
+    jest "^29.3.1"
+    long "^5.2.1"
+    prettier "^2.8.0"
+    protobufjs "^7.1.2"
+    rxjs "^7.5.7"
+    ts-jest "^29.0.3"
+    ts-proto "^1.135.3"
+    ts-protoc-gen "^0.15.0"
+
 "@leichtgewicht/ip-codec@^2.0.1":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"

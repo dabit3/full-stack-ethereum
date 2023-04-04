@@ -5,6 +5,7 @@
   "dependencies": {
     "@ethersproject/abi": "^5.7.0",
     "@ethersproject/providers": "^5.7.0",
+    "@lavanet/lava-sdk-providers": "0.8.3",
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.3",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.6",
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
@@ -26,7 +27,6 @@
     "hardhat": "^2.11.1",
     "hardhat-gas-reporter": "^1.0.9",
     "https-browserify": "^1.0.0",
-    "lava-sdk-providers": "ssh://git@github.com:lavanet/lava-sdk-providers#c11ffa93e4f86dc7d2e89e7dac99932874e80c48",
     "os-browserify": "^0.3.0",
     "process": "^0.11.10",
     "react": "^18.2.0",
