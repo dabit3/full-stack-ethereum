@@ -16,22 +16,33 @@
     "@testing-library/user-event": "^13.5.0",
     "@typechain/ethers-v5": "^10.1.0",
     "@typechain/hardhat": "^6.1.2",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
     "chai": "^4.3.6",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.0.3",
     "ethereum-waffle": "^3.4.4",
-    "ethers": "^5.7.0",
+    "ethers": "^6.1.0",
     "hardhat": "^2.11.1",
     "hardhat-gas-reporter": "^1.0.9",
+    "https-browserify": "^1.0.0",
+    "lava-sdk-providers": "ssh://git@github.com:lavanet/lava-sdk-providers#c11ffa93e4f86dc7d2e89e7dac99932874e80c48",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "solidity-coverage": "^0.8.2",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
     "typechain": "^8.1.0",
+    "url": "^0.11.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -51,5 +62,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.2.1"
   }
 }

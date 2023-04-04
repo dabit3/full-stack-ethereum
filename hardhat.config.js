@@ -1,4 +1,5 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config()
 
 module.exports = {
   solidity: "0.8.9",
@@ -9,9 +10,9 @@ module.exports = {
     hardhat: {
       chainId: 1337
     },
-    ropsten: {
-      url: "https://ropsten.infura.io/v3/903ad3bdef654d9ba0a0d28b2b5d6edf",
-      accounts: [`0x437cf0472fbe1f6e654b432b43fbcd0e21979f2c721cf2666648ce66fe2fb4e8`]
+    goerli: {
+      url: "https://g.w.lavanet.xyz:443/gateway/gth1/rpc-http/9f077c1bd895c1cead9fcdb0b96dd33f",
+      accounts: [process.env.REACT_APP_PRIVATE_KEY]
     }
   }
 };
